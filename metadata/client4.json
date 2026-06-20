@@ -1,0 +1,20 @@
+{
+  "name": "Hairless Skin Passport — Client #4",
+  "description": "Soulbound treatment record for Hairless Laser Aesthetics client.",
+  "image": "ipfs://bafkreigh2akiscaildc6w5d7ymrt5wa3hg5p3sjkjj6r5n5g6n5n5g6n5n5",
+  "attributes": [
+    { "trait_type": "Skin Type", "value": "Fitzpatrick III" },
+    { "trait_type": "Location", "value": "Kyustendil — бул. Цар Освободител" },
+    { "trait_type": "Member Since", "value": "2026-06" },
+    { "trait_type": "Treatment Zones", "value": "Arms, Back" }
+  ],
+  "treatment_history": [
+    {
+      "date": "2026-06-19",
+      "zone": "Arms",
+      "device": "Diode Laser",
+      "operator": "Taня",
+      "session_number": 1
+    }
+  ]
+}

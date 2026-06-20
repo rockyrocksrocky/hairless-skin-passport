@@ -1,0 +1,20 @@
+{
+  "name": "Hairless Skin Passport — Client #3",
+  "description": "Soulbound treatment record for Hairless Laser Aesthetics client.",
+  "image": "ipfs://bafkreigh2akiscaildc6w5d7ymrt5wa3hg5p3sjkjj6r5n5g6n5n5g6n5n5",
+  "attributes": [
+    { "trait_type": "Skin Type", "value": "Fitzpatrick IV" },
+    { "trait_type": "Location", "value": "Mobile — Regional Towns" },
+    { "trait_type": "Member Since", "value": "2026-06" },
+    { "trait_type": "Treatment Zones", "value": "Full Legs" }
+  ],
+  "treatment_history": [
+    {
+      "date": "2026-06-19",
+      "zone": "Full Legs",
+      "device": "Diode Laser",
+      "operator": "Iva",
+      "session_number": 1
+    }
+  ]
+}
