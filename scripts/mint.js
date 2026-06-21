@@ -29,7 +29,7 @@ const CLIENTS = [
   },
 ];
 
-const CONTRACT_ADDRESS = "0x262a7032b4E7415B13C5C7c4318069910797b336";
+const CONTRACT_ADDRESS = "0xD9ee2a27e41B1350406F6c9D42f680A869Bd6A52"; // Base MAINNET
 
 async function main() {
   const [signer] = await hre.ethers.getSigners();
@@ -47,14 +47,14 @@ async function main() {
     try {
       const tx = await passport.mintPassport(client.wallet, client.skinType, client.metadataURI);
       const receipt = await tx.wait();
-      console.log(`✅ Minted! Tx: https://sepolia.basescan.org/tx/${receipt.hash}`);
+      console.log(`✅ Minted! Tx: https://basescan.org/tx/${receipt.hash}`);
     } catch (err) {
       console.error(`❌ Failed for ${client.name}:`, err.reason || err.message);
     }
   }
 
   console.log("\nDone. Check all passports at:");
-  console.log(`https://sepolia.basescan.org/address/${CONTRACT_ADDRESS}#readContract`);
+  console.log(`https://basescan.org/address/${CONTRACT_ADDRESS}#readContract`);
 }
 
 main().catch((error) => {
